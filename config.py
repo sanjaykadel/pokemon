@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from models import Base
 from dotenv import load_dotenv
-
+ 
 # Load environment variables from .env file
 load_dotenv()
 
